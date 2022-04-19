@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(240, 213, 213);;;
+}
+
+.menubar{
+    text-align: center;
+    background-color: rgb(211, 25, 87);
+    font-size: 30px;
+
+}
+.menubar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: -45px;
+}
+.menubar ul li a{
+    padding: 10px 50px;
+    color: white;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+
+}
+.menubar ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.menubar ul li a:hover{
+    background-color: rgb(78, 8, 124);
+    transition: .2s;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(241, 12, 12);
+    text-decoration: underline;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: defualt;
+    padding: 10px 10px 30px;
+    line-height: 25px;
+}
+h1{
+    padding: 20px 10px 0px;
+    color: rgb(211, 25, 87);
+    text-decoration: underline;
+    text-align: center
+}
+
+.one{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.text{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+
+.two{
+    text-align: center;
+    font-size: default;
+    text-decoration: underline ;
+    color: red;
+    padding-top: 30px;
+}
+.three{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.color{
+    color: red;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.four{
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 20px;
+
+}
+
+.color2{
+    font-size: 30px;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.five{
+    text-align: center;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.picexample{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+
+.six{
+    text-align: center;
+    background: rgb(240, 213, 213);   
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(78, 4, 47);
+}
+
+
+.seven{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.eight{
+    text-align: center;
+    text-decoration: underline red;
+}
+  
+.button-div{
+    text-align: default;
+    margin-top: 40px;
+    padding-left: 10px;
+
+}
+
+.link-div{
+    font-size: 30px;
+    text-decoration: none;
+    background: rgb(230, 7, 37);
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+
+}
+.link-div::before{
+    content: "" ;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 163, 12);
+    border-radius: 5px;
+    transition: .4s;
+    z-index: -1;
+    
+}
+
+.link-div:hover::before{
+    width: 100%;
+    
+}
+
+h3{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+.pointer{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.ten{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.eleven{
+    padding-top: 30px;
+    text-align: center;
+    background: rgb(240, 213, 213);
+}
+
+.twelve{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+
+.footer{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(211, 25, 87);
+
+}
